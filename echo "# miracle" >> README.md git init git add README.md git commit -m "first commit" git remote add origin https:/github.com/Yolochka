@@ -1,0 +1,48 @@
+import turtle
+a = 0
+b = 0
+x = 60
+y = 40
+g = 0
+turtle.up ()
+turtle.goto (0,150)
+turtle.down ()
+turtle.rt (60)
+while b != 3:
+    while a != 3:
+        a += 1
+        turtle.fd(x)
+        turtle.rt(120)
+    x += 40
+    b += 1
+    a = 0
+    turtle.up()
+    turtle.rt (30)
+    turtle.fd (y)
+    turtle.left (30)
+    y += 40
+    turtle.down()
+turtle.rt (120)
+turtle.up ()
+turtle.fd (15)
+turtle.down ()
+turtle.left (90)
+turtle.fd (30)
+turtle.left (90)
+turtle.fd (30)
+turtle.left (90)
+turtle.fd (30)
+turtle.left (90)
+turtle.up ()
+turtle.fd (15)
+turtle.right (90)
+turtle.fd (230)
+turtle.rt (90)
+turtle.fd (15)
+turtle.left (144)
+turtle.down ()
+while g != 5:
+    turtle.fd (50)
+    turtle.right (144)
+    g += 1
+turtle.done ()
